@@ -137,16 +137,20 @@ footer img{
             height: 25vh;
             flex-direction: column;
             justify-content: center;
-            align-items: center;} 
+            align-items: center;
        
         .titulo{
-            width: 70vw;
+            width: 70vw;}
         ul{
             height: 10vh;
-            width: 80%;}
-        nav{
-            width: 80%;}
+            width: 90%;
+            justify-content: space-between;
         }
+        nav{
+            width: 80%;
+        }
+        
+    } 
         .paragrafo{
             height: 100vh;
             flex-direction: column-reverse;

@@ -164,14 +164,15 @@ footer img {
     justify-content: center;
     align-items: center;
   }
-  .titulo {
+  header .titulo {
     width: 70vw;
   }
-  .titulo ul {
+  header ul {
     height: 10vh;
-    width: 80%;
+    width: 90%;
+    justify-content: space-between;
   }
-  .titulo nav {
+  header nav {
     width: 80%;
   }
   .paragrafo {
