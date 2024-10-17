@@ -128,3 +128,93 @@ footer{
 
 footer img{
     height: 18vh;}
+
+    @media(max-width: 500px){
+
+        body{width: 100%;} 
+
+        header{
+            height: 25vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;} 
+       
+        .titulo{
+            width: 70vw;
+        ul{
+            height: 10vh;
+            width: 80%;}
+        nav{
+            width: 80%;}
+        }
+        .paragrafo{
+            height: 100vh;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: space-evenly;
+            p{font-size: 20px;
+             height:40vh ;
+             width: 80%;
+             text-align: center;}
+            img{       
+             height: 40vh;}
+        
+           
+        }
+.paragrafo2{
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    p{font-size: 20px;
+        height:30vh ;
+        width: 80%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center; }
+      
+       img{
+           height: 40vh;}
+       
+}
+
+.imagens{
+    height: 110vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    p{font-size: 18px;}
+    img{
+        height: 25vh;}
+}
+
+footer{
+    height: 50vh;
+    flex-direction: column;
+    
+    img{
+       height: 15vh;
+    }
+
+    .redessociais{
+        width: 80vw;
+    }
+
+    .linksfooter{
+        font-size: 14px;
+        height: 20vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 90px;
+        
+        a{  
+        width: 100vw;}
+    }
+}
+
+    }
+        
+    
